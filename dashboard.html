@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Url Shortneer</title>
+	<link rel="stylesheet" type="text/css" href="dashboard.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<nav>
+		<div class="menu">
+			<a href="index.html">Home</a>
+			<a href="login.html">login</a>
+			<a href="signup.html">Signup</a>
+			<a href="dashboard.html">Dashboard</a>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="top-part">
+			<div class="search-part">
+				<p class="simplify-text">Short your URL with one click</p>
+				<p class="last-text">All the Shorted URL and their analytics are private</p>
+				<div class="search">
+					<form>
+						<input type="text" name="url" class="search-box">
+						<input type="submit" name="" value="Shorten URL" class="search-button">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="divider">
+			<div class="result-count">
+				500 links | 4500 remaining
+			</div>
+			<div class="sort-by">
+				<span>sort by </span>
+				<select>
+					<option>All</option>
+					<option>Most visited</option>
+					<option>Protected</option>
+					<option>unprotected</option>
+					<option>Time (asc)</option>
+					<option>Time (dsc)</option>
+				</select>
+			</div>
+			<div class="download-csv">
+				download csv file
+			</div>
+		</div>
+		<div class="result-part">
+			<div class="results">
+				<div class="headers">
+					<span class="index">Index</span>
+					<span class="shorted-url">Shorted url</span>
+					<span  class="main-url">Original url</span>
+					<span class="created">Created</span>
+					<span class="visited">Visited</span>
+					<span class="protected">Protected</span>
+					<span class="delete">Delete</span>
+				</div>
+				<div class="headers">
+					<span class="index">1</span>
+					<span class="shorted-url">
+						<a href="lshortneer.herokuapp.com/l/W2nW">lshortneer.herokuapp.com/l/W2nW</a>
+					</span>
+					<span  class="main-url">
+						<a href="https://facebook.com">https://facebook.com</a>
+					</span>
+					<span class="created">jflkas</span>
+					<span class="visited">0</span>
+					<span class="protected">None</span>
+					<span class="delete">
+						<a href="#" class="delete-link">Delete</a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
